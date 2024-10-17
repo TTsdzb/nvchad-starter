@@ -1,8 +1,6 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-    css = { "prettier" },
-    html = { "prettier" },
   },
 
   -- Change the default values when calling conform.format()
@@ -10,15 +8,6 @@ local options = {
   default_format_opts = {
     lsp_format = "fallback",
   },
-
-  -- Conform will run the formatter on save
-  format_on_save = {
-    -- These options will be passed to conform.format()
-    timeout_ms = 500,
-  },
-
-  -- Conform will notify you when no formatters are available for the buffer
-  notify_no_formatters = true,
 }
 
 return options
