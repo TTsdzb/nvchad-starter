@@ -1,8 +1,16 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
+
     css = { "prettier" },
     html = { "prettier" },
+    javascript = { "prettier" },
+    ["javascript.jsx"] = { "prettier" },
+    typescript = { "prettier" },
+    ["typescript.tsx"] = { "prettier" },
+
+    json = { "prettier" },
+    yaml = { "prettier" },
   },
 
   -- Change the default values when calling conform.format()
