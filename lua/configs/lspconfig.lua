@@ -7,10 +7,14 @@ local lspconfig = require "lspconfig"
 local servers = {
   "html",
   "cssls",
-  "vtsls",
+  "vtsls", -- JS, TS, JSX, TSX
 
-  "pylsp",
+  "pylsp", -- Python
   "rust_analyzer",
+
+  "jsonls",
+  "yamlls",
+  "taplo", -- TOML
 }
 local nvlsp = require "nvchad.configs.lspconfig"
 
