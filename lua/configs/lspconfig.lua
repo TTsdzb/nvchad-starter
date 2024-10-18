@@ -4,7 +4,11 @@ require("nvchad.configs.lspconfig").defaults()
 local lspconfig = require "lspconfig"
 
 -- EXAMPLE
-local servers = {}
+local servers = {
+  "jsonls",
+  "yamlls",
+  "taplo",  -- TOML
+}
 local nvlsp = require "nvchad.configs.lspconfig"
 
 -- lsps with default config
