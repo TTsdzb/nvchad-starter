@@ -7,20 +7,22 @@
 # 使用
 
 ```sh
-git clone https://github.com/TTsdzb/nvchad-starter ~/.config/nvim && nvim
-```
-
-root 用户（这个配置更简单一些）：
-
-```sh
 git clone --branch root https://github.com/TTsdzb/nvchad-starter ~/.config/nvim && nvim
 ```
 
-在完成之后运行以下命令：
+## 安装依赖
+
+### mason.nvim
 
 ```
 :MasonInstallAll
 ```
+
+### Termux
+
+无需额外安装。
+
+## 安装高亮规则
 
 ```
 :TSInstall bash c c_sharp cmake cpp css csv cuda dockerfile gitcommit gitignore glsl html ini java json jsonc lua make markdown nginx passwd powershell python regex requirements rust slint sql ssh_config toml typescript vue wgsl wgsl_bevy xml yaml
