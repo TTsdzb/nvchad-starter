@@ -10,17 +10,29 @@
 git clone https://github.com/TTsdzb/nvchad-starter ~/.config/nvim && nvim
 ```
 
-root 用户（这个配置更简单一些）：
+## 安装依赖
 
-```sh
-git clone --branch root https://github.com/TTsdzb/nvchad-starter ~/.config/nvim && nvim
-```
-
-在完成之后运行以下命令：
+### mason.nvim
 
 ```
 :MasonInstallAll
 ```
+
+### Termux
+
+```sh
+pkg install lua-language-server stylua taplo
+```
+
+```sh
+npm i -g vscode-langservers-extracted @vtsls/language-server yaml-language-server
+```
+
+```sh
+pip install python-lsp-server
+```
+
+## 安装高亮规则
 
 ```
 :TSInstall bash c c_sharp cmake cpp css csv cuda dockerfile gitcommit gitignore glsl html ini java json jsonc lua make markdown nginx passwd powershell python regex requirements rust slint sql ssh_config toml typescript vue wgsl wgsl_bevy xml yaml
