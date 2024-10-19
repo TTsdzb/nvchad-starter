@@ -21,7 +21,7 @@ git clone https://github.com/TTsdzb/nvchad-starter ~/.config/nvim && nvim
 ### Termux
 
 ```sh
-pkg install lua-language-server stylua taplo
+pkg install lua-language-server stylua rust-analyzer taplo
 ```
 
 ```sh
