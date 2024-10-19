@@ -11,6 +11,7 @@ local servers = {
 
   "pylsp", -- Python
   "rust_analyzer",
+  "clangd", -- C, C++, CUDA
 
   "jsonls",
   "yamlls",
