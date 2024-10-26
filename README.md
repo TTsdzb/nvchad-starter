@@ -25,7 +25,7 @@ pkg install lua-language-server stylua rust-analyzer taplo
 ```
 
 ```sh
-npm i -g vscode-langservers-extracted @vtsls/language-server yaml-language-server
+npm i -g vscode-langservers-extracted @vtsls/language-server bash-language-server yaml-language-server
 ```
 
 ```sh
