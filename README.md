@@ -28,20 +28,6 @@ pkg install lua-language-server stylua rust-analyzer taplo
 npm i -g vscode-langservers-extracted @vtsls/language-server bash-language-server yaml-language-server basedpyright
 ```
 
-为 `basedpyright` 添加软链：
-
-```sh
-cd ~/../usr/bin
-```
-
-```sh
-ln -s ../lib/node_modules/basedpyright/index.js basedpyright
-```
-
-```sh
-ln -s ../lib/node_modules/basedpyright/langserver.index.js basedpyright-langserver
-```
-
 ## 安装高亮规则
 
 ```
