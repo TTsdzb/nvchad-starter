@@ -29,7 +29,7 @@ npm i -g vscode-langservers-extracted @vtsls/language-server bash-language-serve
 ```
 
 ```sh
-pip install python-lsp-server
+pip install basedpyright
 ```
 
 ## 安装高亮规则
