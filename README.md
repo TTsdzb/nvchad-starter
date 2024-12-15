@@ -32,6 +32,12 @@ npm i -g vscode-langservers-extracted @vtsls/language-server bash-language-serve
 pip install basedpyright
 ```
 
+如果构建依赖 cmake 安装时报错，先安装系统 cmake 包：
+
+```sh
+pkg install cmake
+```
+
 ## 安装高亮规则
 
 ```
