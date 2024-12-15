@@ -5,7 +5,7 @@ local servers = {
   "cssls",
   "vtsls", -- JS, TS, JSX, TSX
 
-  "pylsp", -- Python
+  "basedpyright", -- Python
   "rust_analyzer",
   "clangd", -- C, C++, CUDA
   "bashls",
