@@ -25,17 +25,21 @@ pkg install lua-language-server stylua rust-analyzer taplo
 ```
 
 ```sh
-npm i -g vscode-langservers-extracted @vtsls/language-server bash-language-server yaml-language-server
+npm i -g vscode-langservers-extracted @vtsls/language-server bash-language-server yaml-language-server basedpyright
+```
+
+为 `basedpyright` 添加软链：
+
+```sh
+cd ~/../usr/bin
 ```
 
 ```sh
-pip install basedpyright
+ln -s ../lib/node_modules/basedpyright/index.js basedpyright
 ```
 
-如果构建依赖 cmake 安装时报错，先安装系统 cmake 包：
-
 ```sh
-pkg install cmake
+ln -s ../lib/node_modules/basedpyright/langserver.index.js basedpyright-langserver
 ```
 
 ## 安装高亮规则
