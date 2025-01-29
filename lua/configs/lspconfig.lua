@@ -9,6 +9,7 @@ local servers = {
   "rust_analyzer",
   "clangd", -- C, C++, CUDA
   "bashls",
+  "wgsl_analyzer",
 
   "jsonls",
   "yamlls",
