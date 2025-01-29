@@ -28,6 +28,12 @@ pkg install lua-language-server stylua rust-analyzer taplo
 npm i -g vscode-langservers-extracted @vtsls/language-server bash-language-server yaml-language-server basedpyright
 ```
 
+以下大概不会在 Termux 用到，可以不装：
+
+```sh
+cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer.git wgsl_analyzer
+```
+
 ## 安装高亮规则
 
 ```
