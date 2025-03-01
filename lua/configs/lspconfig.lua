@@ -4,7 +4,7 @@ local servers = {
   "html",
   "biome", -- CSS, JS, JSX, TS, TSX, Vue, JSON, JSONC, Astro, GraphQL, Svelte
 
-  "basedpyright", -- Python
+  "ruff", -- Python
   "rust_analyzer",
   "clangd", -- C, C++, CUDA
   "bashls",
