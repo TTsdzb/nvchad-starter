@@ -2,8 +2,7 @@ require("nvchad.configs.lspconfig").defaults()
 
 local servers = {
   "html",
-  "cssls",
-  "vtsls", -- JS, TS, JSX, TSX
+  "biome", -- CSS, JS, JSX, TS, TSX, Vue, JSON, JSONC, Astro, GraphQL, Svelte
 
   "basedpyright", -- Python
   "rust_analyzer",
@@ -11,7 +10,6 @@ local servers = {
   "bashls",
   "wgsl_analyzer",
 
-  "jsonls",
   "yamlls",
   "taplo", -- TOML
 }
