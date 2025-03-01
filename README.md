@@ -25,7 +25,7 @@ pkg install biome lua-language-server stylua rust-analyzer taplo
 ```
 
 ```sh
-npm i -g vscode-langservers-extracted @vtsls/language-server bash-language-server yaml-language-server basedpyright
+npm i -g vscode-langservers-extracted bash-language-server yaml-language-server basedpyright
 ```
 
 以下大概不会在 Termux 用到，可以不装：
