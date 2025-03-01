@@ -21,7 +21,11 @@ git clone https://github.com/TTsdzb/nvchad-starter ~/.config/nvim && nvim
 ### Termux
 
 ```sh
-pkg install biome lua-language-server stylua rust-analyzer taplo
+pkg install tur-repo
+```
+
+```sh
+pkg install biome lua-language-server stylua ruff rust-analyzer taplo
 ```
 
 ```sh
