@@ -3,7 +3,16 @@ local options = {
     lua = { "stylua" },
 
     html = { "prettier" },
+    css = { "biome" },
+    javascript = { "biome" },
+    javascriptreact = { "biome" },
+    ["javascript.jsx"] = { "biome" },
+    typescript = { "biome" },
+    typescriptreact = { "biome" },
+    ["typescript.tsx"] = { "biome" },
 
+    json = { "biome" },
+    jsonc = { "biome" },
     yaml = { "prettier" },
   },
 
