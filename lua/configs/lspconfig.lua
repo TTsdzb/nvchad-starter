@@ -16,6 +16,8 @@ local servers = {
 
   "yamlls",
   "taplo", -- TOML
+
+  "texlab", -- LaTeX
 }
 local nvlsp = require "nvchad.configs.lspconfig"
 
