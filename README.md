@@ -35,6 +35,10 @@ npm i -g vscode-langservers-extracted bash-language-server yaml-language-server 
 以下大概不会在 Termux 用到，可以不装：
 
 ```sh
+pkg install texlab
+```
+
+```sh
 cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer.git wgsl_analyzer
 ```
 
