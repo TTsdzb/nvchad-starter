@@ -32,6 +32,8 @@ pkg install biome lua-language-server stylua ruff rust-analyzer taplo
 npm i -g vscode-langservers-extracted bash-language-server yaml-language-server basedpyright
 ```
 
+如需 Java 支持，需要手动安装 [Eclipse JDT LS](http://download.eclipse.org/jdtls/snapshots/?d)。点击链接下载，解压后将其中的 `bin` 目录添加到 `PATH` 环境变量中。
+
 以下大概不会在 Termux 用到，可以不装：
 
 ```sh
