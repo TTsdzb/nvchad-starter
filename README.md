@@ -18,6 +18,10 @@ git clone https://github.com/TTsdzb/nvchad-starter ~/.config/nvim && nvim
 :MasonInstallAll
 ```
 
+```
+:MasonInstall tree-sitter-cli
+```
+
 ### Termux
 
 ```sh
@@ -25,7 +29,7 @@ pkg install tur-repo
 ```
 
 ```sh
-pkg install biome lua-language-server stylua ruff rust-analyzer taplo
+pkg install biome lua-language-server stylua ruff rust-analyzer taplo tree-sitter
 ```
 
 ```sh
@@ -42,12 +46,6 @@ pkg install texlab
 
 ```sh
 cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer.git wgsl_analyzer
-```
-
-## 安装高亮规则
-
-```
-:TSInstall bash c c_sharp cmake cpp css csv cuda dockerfile gitcommit gitignore glsl html ini java json jsonc lua make markdown nginx passwd powershell python regex requirements rust slint sql ssh_config toml typescript vue wgsl wgsl_bevy xml yaml
 ```
 
 # Credits
