@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    event = 'BufWritePre', -- uncomment for format on save
+    event = "BufWritePre", -- uncomment for format on save
     opts = require "configs.conform",
   },
 
@@ -13,13 +13,62 @@ return {
     end,
   },
 
-  -- {
-  -- 	"nvim-treesitter/nvim-treesitter",
-  -- 	opts = {
-  -- 		ensure_installed = {
-  -- 			"vim", "lua", "vimdoc",
-  --      "html", "css"
-  -- 		},
-  -- 	},
-  -- },
+  {
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      ensure_installed = {
+        "bash",
+        "bibtex",
+        "c",
+        "c_sharp",
+        "cmake",
+        "comment",
+        "cpp",
+        "css",
+        "csv",
+        "cuda",
+        "desktop",
+        "diff",
+        "dockerfile",
+        "git_config",
+        "git_rebase",
+        "gitcommit",
+        "gitignore",
+        "glsl",
+        "gpg",
+        "html",
+        "http",
+        "ini",
+        "java",
+        "javascript",
+        "json",
+        "jsonc",
+        "latex",
+        "lua",
+        "make",
+        "markdown",
+        "nginx",
+        "passwd",
+        "powershell",
+        "printf",
+        "python",
+        "regex",
+        "requirements",
+        "rust",
+        "slint",
+        "sql",
+        "ssh_config",
+        "toml",
+        "typescript",
+        "typst",
+        "udev",
+        "vim",
+        "vue",
+        "wgsl",
+        "wgsl_bevy",
+        "xml",
+        "yaml",
+      },
+    },
+  },
 }
