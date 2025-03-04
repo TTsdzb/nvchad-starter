@@ -11,6 +11,7 @@ local servers = {
   "ruff", -- Python
   "rust_analyzer",
   "clangd", -- C, C++, CUDA
+  "jdtls",
   "bashls",
   "wgsl_analyzer",
 
