@@ -2,17 +2,14 @@ local options = {
   formatters_by_ft = {
     lua = { "stylua" },
 
+    css = { "prettier" },
     html = { "prettier" },
-    css = { "biome" },
-    javascript = { "biome" },
-    javascriptreact = { "biome" },
-    ["javascript.jsx"] = { "biome" },
-    typescript = { "biome" },
-    typescriptreact = { "biome" },
-    ["typescript.tsx"] = { "biome" },
+    javascript = { "prettier" },
+    ["javascript.jsx"] = { "prettier" },
+    typescript = { "prettier" },
+    ["typescript.tsx"] = { "prettier" },
 
-    json = { "biome" },
-    jsonc = { "biome" },
+    json = { "prettier" },
     yaml = { "prettier" },
   },
 
