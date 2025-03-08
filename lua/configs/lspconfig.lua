@@ -6,7 +6,8 @@ local lspconfig = require "lspconfig"
 -- EXAMPLE
 local servers = {
   "html",
-  "biome", -- CSS, JS, JSX, TS, TSX, Vue, JSON, JSONC, Astro, GraphQL, Svelte
+  "cssls",
+  "vtsls", -- JS, TS, JSX, TSX
 
   "ruff", -- Python
   "rust_analyzer",
@@ -15,6 +16,7 @@ local servers = {
   "bashls",
   "wgsl_analyzer",
 
+  "jsonls",
   "yamlls",
   "taplo", -- TOML
 

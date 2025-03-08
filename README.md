@@ -29,7 +29,7 @@ pkg install tur-repo
 ```
 
 ```sh
-pkg install biome lua-language-server stylua ruff rust-analyzer taplo tree-sitter
+pkg install lua-language-server stylua ruff rust-analyzer taplo tree-sitter
 ```
 
 ```sh
