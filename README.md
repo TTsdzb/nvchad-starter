@@ -12,7 +12,21 @@ git clone https://github.com/TTsdzb/nvchad-starter ~/.config/nvim && nvim
 
 ## 安装依赖
 
-### mason.nvim
+### vim-rzip
+
+该插件用于 Yarn PnP 项目支持。因为属于传统 Vim 插件，需要手动安装。可能需要 root 权限。
+
+确定 Neovim 插件加载路径：
+
+```
+:echo &packpath
+```
+
+按照 [README](https://github.com/lbrayner/vim-rzip?tab=readme-ov-file#installation) 安装插件，并将 `~/.vim` 替换为上一步的路径。
+
+### 其他依赖
+
+#### mason.nvim
 
 ```
 :MasonInstallAll
@@ -22,7 +36,7 @@ git clone https://github.com/TTsdzb/nvchad-starter ~/.config/nvim && nvim
 :MasonInstall tree-sitter-cli
 ```
 
-### Termux
+#### Termux
 
 ```sh
 pkg install tur-repo
@@ -33,7 +47,7 @@ pkg install lua-language-server stylua ruff rust-analyzer taplo tree-sitter
 ```
 
 ```sh
-npm i -g vscode-langservers-extracted @vtsls/language-server bash-language-server yaml-language-server prettier
+npm i -g vscode-langservers-extracted typescript-language-server typescript bash-language-server yaml-language-server prettier
 ```
 
 如需 Java 支持，需要手动安装 [Eclipse JDT LS](http://download.eclipse.org/jdtls/snapshots/?d)。点击链接下载，解压后将其中的 `bin` 目录添加到 `PATH` 环境变量中。
