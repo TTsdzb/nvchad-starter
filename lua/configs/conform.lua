@@ -5,8 +5,10 @@ local options = {
     css = { "prettier" },
     html = { "prettier" },
     javascript = { "prettier" },
+    javascriptreact = { "prettier" },
     ["javascript.jsx"] = { "prettier" },
     typescript = { "prettier" },
+    typescriptreact = { "prettier" },
     ["typescript.tsx"] = { "prettier" },
 
     json = { "prettier" },
