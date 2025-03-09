@@ -83,4 +83,15 @@ return {
       },
     },
   },
+
+  {
+    "folke/which-key.nvim",
+    -- This is a commonly used plugin
+    -- Make sure we load this on start so keys isn't needed to be hit twice for the menu
+    lazy = false,
+    opts = function()
+      dofile(vim.g.base46_cache .. "whichkey")
+      return {}
+    end,
+  },
 }
