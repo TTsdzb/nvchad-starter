@@ -87,11 +87,18 @@ return {
   {
     "folke/which-key.nvim",
     -- This is a commonly used plugin
-    -- Make sure we load this on start so keys isn't needed to be hit twice for the menu
+    -- Make sure we load this on start so keys don't needed to be hit twice for the menu
     lazy = false,
     opts = function()
       dofile(vim.g.base46_cache .. "whichkey")
       return {}
     end,
+  },
+
+  {
+    "lbrayner/vim-rzip",
+    -- I don't know how to lazyload this
+    -- It must be loaded before opening a zip file
+    lazy = false,
   },
 }
