@@ -12,21 +12,7 @@ git clone https://github.com/TTsdzb/nvchad-starter ~/.config/nvim && nvim
 
 ## 安装依赖
 
-### vim-rzip
-
-该插件用于 Yarn PnP 项目支持。因为属于传统 Vim 插件，需要手动安装。可能需要 root 权限。
-
-确定 Neovim 插件加载路径：
-
-```
-:echo &packpath
-```
-
-按照 [README](https://github.com/lbrayner/vim-rzip?tab=readme-ov-file#installation) 安装插件，并将 `~/.vim` 替换为上一步的路径。
-
-### 其他依赖
-
-#### mason.nvim
+### mason.nvim
 
 ```
 :MasonInstallAll
@@ -36,14 +22,14 @@ git clone https://github.com/TTsdzb/nvchad-starter ~/.config/nvim && nvim
 :MasonInstall tree-sitter-cli
 ```
 
-#### Termux
+### Termux
 
 ```sh
 pkg install tur-repo
 ```
 
 ```sh
-pkg install lua-language-server stylua ruff rust-analyzer taplo tree-sitter
+pkg install lua-language-server stylua ruff rust-analyzer taplo tree-sitter unzip zip
 ```
 
 ```sh
