@@ -4,6 +4,7 @@ local servers = {
   "html",
   "cssls",
   "ts_ls", -- JS, TS, JSX, TSX
+  "eslint", -- Linter for JS, TS, JSX, TSX, Vue, Svelte, Astro
 
   "ruff", -- Python
   "rust_analyzer",
