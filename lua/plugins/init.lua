@@ -86,19 +86,51 @@ return {
 
   {
     "folke/which-key.nvim",
-    -- This is a commonly used plugin
-    -- Make sure we load this on start so keys don't needed to be hit twice for the menu
+    -- This is a commonly used plugin.
+    -- Make sure we load this on start so the leader key doesn't needed to be hit twice for the menu,
+    -- and `VeryLazy` should be enough for it.
+    event = "VeryLazy",
+  },
+
+  {
+    "nvim-tree/nvim-tree.lua",
+    -- This plugin must be loaded before opening directories, in order to display dir contents.
+    -- It must be loaded with `lazy = false`.
     lazy = false,
-    opts = function()
-      dofile(vim.g.base46_cache .. "whichkey")
-      return {}
+    config = function(_, opts)
+      require("nvim-tree").setup(opts)
+
+      -- For autoclose
+      vim.api.nvim_create_autocmd("QuitPre", {
+        callback = function()
+          local tree_wins = {}
+          local floating_wins = {}
+          local wins = vim.api.nvim_list_wins()
+          for _, w in ipairs(wins) do
+            local bufname = vim.api.nvim_buf_get_name(vim.api.nvim_win_get_buf(w))
+            if bufname:match "NvimTree_" ~= nil then
+              table.insert(tree_wins, w)
+            end
+            if vim.api.nvim_win_get_config(w).relative ~= "" then
+              table.insert(floating_wins, w)
+            end
+          end
+          if 1 == #wins - #floating_wins - #tree_wins then
+            -- Should quit, so we close all invalid windows.
+            for _, w in ipairs(tree_wins) do
+              vim.api.nvim_win_close(w, true)
+            end
+          end
+        end,
+      })
     end,
   },
 
   {
     "lbrayner/vim-rzip",
-    -- I don't know how to lazyload this
-    -- It must be loaded before opening a zip file
-    lazy = false,
+    -- For now, the plugin is only used for Yarn PnP support.
+    -- For zip files, it must be loaded before opening them (disable lazyload for that).
+    ft = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx" },
+    -- lazy = false,
   },
 }
