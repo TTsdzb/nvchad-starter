@@ -17,6 +17,7 @@ local servers = {
   "yamlls",
   "taplo", -- TOML
 
+  "marksman", -- Markdown
   "texlab", -- LaTeX
 }
 vim.lsp.enable(servers)
