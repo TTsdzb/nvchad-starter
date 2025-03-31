@@ -33,7 +33,7 @@ pkg install lua-language-server stylua ruff rust-analyzer taplo tree-sitter unzi
 ```
 
 ```sh
-npm i -g vscode-langservers-extracted typescript-language-server typescript bash-language-server yaml-language-server prettier
+npm i -g vscode-langservers-extracted typescript-language-server typescript basedpyright bash-language-server yaml-language-server prettier
 ```
 
 如需 Java 支持，需要手动安装 [Eclipse JDT LS](http://download.eclipse.org/jdtls/snapshots/?d)。点击链接下载，解压后将其中的 `bin` 目录添加到 `PATH` 环境变量中。
