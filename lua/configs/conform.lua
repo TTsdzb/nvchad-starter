@@ -13,6 +13,8 @@ local options = {
 
     json = { "prettier" },
     yaml = { "prettier" },
+
+    python = { "ruff_format", "ruff_organize_imports", "ruff_fix" },
   },
 
   -- Change the default values when calling conform.format()
