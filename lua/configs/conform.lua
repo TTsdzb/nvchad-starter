@@ -2,19 +2,21 @@ local options = {
   formatters_by_ft = {
     lua = { "stylua" },
 
-    css = { "prettier" },
-    html = { "prettier" },
-    javascript = { "prettier" },
-    javascriptreact = { "prettier" },
-    ["javascript.jsx"] = { "prettier" },
-    typescript = { "prettier" },
-    typescriptreact = { "prettier" },
-    ["typescript.tsx"] = { "prettier" },
+    css = { "prettierd" },
+    html = { "prettierd" },
+    javascript = { "prettierd" },
+    javascriptreact = { "prettierd" },
+    ["javascript.jsx"] = { "prettierd" },
+    typescript = { "prettierd" },
+    typescriptreact = { "prettierd" },
+    ["typescript.tsx"] = { "prettierd" },
 
-    json = { "prettier" },
-    yaml = { "prettier" },
+    json = { "prettierd" },
+    yaml = { "prettierd" },
 
     python = { "ruff_format", "ruff_organize_imports", "ruff_fix" },
+
+    rust = { "rustfmt" },
   },
 
   -- Change the default values when calling conform.format()
