@@ -2,17 +2,17 @@ local options = {
   formatters_by_ft = {
     lua = { "stylua" },
 
-    css = { "prettierd" },
-    html = { "prettierd" },
-    javascript = { "prettierd" },
-    javascriptreact = { "prettierd" },
-    ["javascript.jsx"] = { "prettierd" },
-    typescript = { "prettierd" },
-    typescriptreact = { "prettierd" },
-    ["typescript.tsx"] = { "prettierd" },
+    css = { "prettier" },
+    html = { "prettier" },
+    javascript = { "prettier" },
+    javascriptreact = { "prettier" },
+    ["javascript.jsx"] = { "prettier" },
+    typescript = { "prettier" },
+    typescriptreact = { "prettier" },
+    ["typescript.tsx"] = { "prettier" },
 
-    json = { "prettierd" },
-    yaml = { "prettierd" },
+    json = { "prettier" },
+    yaml = { "prettier" },
 
     python = { "ruff_format", "ruff_organize_imports", "ruff_fix" },
 
