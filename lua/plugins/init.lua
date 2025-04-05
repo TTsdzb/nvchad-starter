@@ -121,4 +121,14 @@ return {
     ft = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx" },
     -- lazy = false,
   },
+
+  {
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    ft = { "markdown" },
+    build = function()
+      require("lazy").load { plugins = { "markdown-preview.nvim" } }
+      vim.fn["mkdp#util#install"]()
+    end,
+  },
 }
