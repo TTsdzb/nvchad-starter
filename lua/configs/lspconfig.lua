@@ -6,8 +6,8 @@ local servers = {
   "ts_ls", -- JS, TS, JSX, TSX
   "eslint", -- Linter for JS, TS, JSX, TSX, Vue, Svelte, Astro
 
-  "basedpyright", -- Python
-  "ruff", -- Python
+  "ty", -- Python type checker
+  "ruff", -- Python linter and formatter
   "rust_analyzer",
   "clangd", -- C, C++, CUDA
   "jdtls",

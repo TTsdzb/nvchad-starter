@@ -29,11 +29,15 @@ pkg install tur-repo
 ```
 
 ```sh
-pkg install lua-language-server stylua ruff rust-analyzer taplo tree-sitter unzip zip
+pkg install lua-language-server stylua ruff rust rust-analyzer taplo tree-sitter unzip uv zip
 ```
 
 ```sh
-npm i -g vscode-langservers-extracted typescript-language-server typescript basedpyright bash-language-server yaml-language-server prettier
+npm i -g vscode-langservers-extracted typescript-language-server typescript bash-language-server yaml-language-server prettier
+```
+
+```sh
+uv tool install ty
 ```
 
 如需 Java 支持，需要手动安装 [Eclipse JDT LS](http://download.eclipse.org/jdtls/snapshots/?d)。点击链接下载，解压后将其中的 `bin` 目录添加到 `PATH` 环境变量中。
@@ -50,4 +54,4 @@ cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer.git wgsl_anal
 
 # Credits
 
-1) Lazyvim starter <https://github.com/LazyVim/starter> as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+1. Lazyvim starter <https://github.com/LazyVim/starter> as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
