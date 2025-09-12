@@ -19,6 +19,8 @@ local servers = {
 
   "marksman", -- Markdown
   "texlab", -- LaTeX
+
+  "slint_lsp",
 }
 vim.lsp.enable(servers)
 

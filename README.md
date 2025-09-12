@@ -19,7 +19,7 @@ git clone https://github.com/TTsdzb/nvchad-starter ~/.config/nvim && nvim
 ```
 
 ```
-:MasonInstall tree-sitter-cli ty
+:MasonInstall slint-lsp tree-sitter-cli ty
 ```
 
 ### Termux
@@ -50,6 +50,10 @@ pkg install texlab
 
 ```sh
 cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer.git wgsl_analyzer
+```
+
+```sh
+cargo install slint-lsp
 ```
 
 # Credits
