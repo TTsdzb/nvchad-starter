@@ -19,7 +19,7 @@ git clone https://github.com/TTsdzb/nvchad-starter ~/.config/nvim && nvim
 ```
 
 ```
-:MasonInstall slint-lsp tree-sitter-cli ty
+:MasonInstall tree-sitter-cli
 ```
 
 ### Termux

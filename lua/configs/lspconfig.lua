@@ -8,6 +8,7 @@ local servers = {
 
   "ty", -- Python
   "rust_analyzer",
+  "gopls",
   "clangd", -- C, C++, CUDA
   "jdtls",
   "bashls",
