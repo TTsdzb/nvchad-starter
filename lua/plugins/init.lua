@@ -47,6 +47,7 @@ return {
         "gitcommit",
         "gitignore",
         "glsl",
+        "go",
         "gpg",
         "html",
         "http",

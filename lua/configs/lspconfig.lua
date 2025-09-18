@@ -1,19 +1,16 @@
 require("nvchad.configs.lspconfig").defaults()
 
 local servers = {
-  "html",
-  "cssls",
-  "ts_ls", -- JS, TS, JSX, TSX
-  "eslint", -- Linter for JS, TS, JSX, TSX, Vue, Svelte, Astro
+  "biome", -- HTML, CSS, JSON, JS, TS, JSX, TSX, Vue, Svelte, Astro
 
   "ty", -- Python
   "rust_analyzer",
+  "gopls",
   "clangd", -- C, C++, CUDA
   "jdtls",
   "bashls",
   "wgsl_analyzer",
 
-  "jsonls",
   "yamlls",
   "taplo", -- TOML
 

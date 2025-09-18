@@ -2,18 +2,8 @@ local options = {
   formatters_by_ft = {
     lua = { "stylua" },
 
-    css = { "prettier" },
-    html = { "prettier" },
-    javascript = { "prettier" },
-    javascriptreact = { "prettier" },
-    ["javascript.jsx"] = { "prettier" },
-    markdown = { "prettier" },
-    typescript = { "prettier" },
-    typescriptreact = { "prettier" },
-    ["typescript.tsx"] = { "prettier" },
-
-    json = { "prettier" },
     yaml = { "prettier" },
+    markdown = { "prettier" },
 
     python = { "ruff_format", "ruff_organize_imports", "ruff_fix" },
 

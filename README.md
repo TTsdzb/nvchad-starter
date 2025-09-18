@@ -19,7 +19,7 @@ git clone https://github.com/TTsdzb/nvchad-starter ~/.config/nvim && nvim
 ```
 
 ```
-:MasonInstall slint-lsp tree-sitter-cli ty
+:MasonInstall tree-sitter-cli
 ```
 
 ### Termux
@@ -29,7 +29,7 @@ pkg install tur-repo
 ```
 
 ```sh
-pkg install lua-language-server stylua rust rust-analyzer taplo tree-sitter unzip uv zip
+pkg install biome lua-language-server stylua rust rust-analyzer taplo tree-sitter unzip uv zip
 ```
 
 ```sh
