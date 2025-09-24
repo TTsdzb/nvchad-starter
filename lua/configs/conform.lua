@@ -5,7 +5,7 @@ local options = {
     yaml = { "prettier" },
     markdown = { "prettier" },
 
-    python = { "ruff_format", "ruff_organize_imports", "ruff_fix" },
+    python = { "ruff_fix", "ruff_organize_imports", "ruff_format" },
 
     rust = { "rustfmt" },
   },
