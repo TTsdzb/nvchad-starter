@@ -1,13 +1,6 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-
-    yaml = { "prettier" },
-    markdown = { "prettier" },
-
-    python = { "ruff_fix", "ruff_organize_imports", "ruff_format" },
-
-    rust = { "rustfmt" },
   },
 
   -- Change the default values when calling conform.format()

@@ -29,31 +29,7 @@ pkg install tur-repo
 ```
 
 ```sh
-pkg install biome lua-language-server stylua rust rust-analyzer taplo tree-sitter unzip uv zip
-```
-
-```sh
-npm i -g vscode-langservers-extracted typescript-language-server typescript bash-language-server yaml-language-server prettier
-```
-
-```sh
-uv tool install ty
-```
-
-如需 Java 支持，需要手动安装 [Eclipse JDT LS](http://download.eclipse.org/jdtls/snapshots/?d)。点击链接下载，解压后将其中的 `bin` 目录添加到 `PATH` 环境变量中。
-
-以下大概不会在 Termux 用到，可以不装：
-
-```sh
-pkg install texlab
-```
-
-```sh
-cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer.git wgsl_analyzer
-```
-
-```sh
-cargo install slint-lsp
+pkg install stylua
 ```
 
 # Credits
